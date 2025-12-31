@@ -8,3 +8,9 @@ def process_data_55(data):
     if data:
         return data.upper()
     return None
+
+// Refactor API calls
+const fetchData = async (): Promise<Data> => {
+  const response = await fetch('/api/data');
+  return response.json();
+};
