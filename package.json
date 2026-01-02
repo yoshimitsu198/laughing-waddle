@@ -1,2 +1,6 @@
 {"version": "1.0.21", "build": 21}
 {"version": "1.0.49", "build": 49}
+// Update configuration
+export const config = {
+  apiUrl: process.env.REACT_APP_API_URL || 'http://localhost:3000'
+};
