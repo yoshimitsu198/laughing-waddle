@@ -5,3 +5,9 @@
 export const config = {
   apiUrl: process.env.REACT_APP_API_URL || 'http://localhost:3000'
 };
+
+// Fix TypeScript type errors
+interface User {
+  id: number;
+  name: string;
+}
