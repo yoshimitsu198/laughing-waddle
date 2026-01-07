@@ -14,3 +14,8 @@ interface User {
 
 // Add type definitions
 type Status = 'pending' | 'completed' | 'failed';
+
+// Add utility functions
+export const formatDate = (date: Date): string => {
+  return date.toISOString().split('T')[0];
+};
