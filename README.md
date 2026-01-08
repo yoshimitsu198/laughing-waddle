@@ -61,3 +61,8 @@ This update includes various improvements and fixes.
 export const Component: React.FC<Props> = ({ prop }) => {
   return <div>{prop}</div>;
 };
+
+// Improve component structure
+export const Component: React.FC<Props> = ({ prop }) => {
+  return <div>{prop}</div>;
+};
