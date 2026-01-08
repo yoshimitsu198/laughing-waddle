@@ -9,3 +9,8 @@ export const config = {
 export const config = {
   apiUrl: process.env.REACT_APP_API_URL || 'http://localhost:3000'
 };
+
+// Improve component structure
+export const Component: React.FC<Props> = ({ prop }) => {
+  return <div>{prop}</div>;
+};
