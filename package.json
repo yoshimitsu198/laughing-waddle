@@ -14,3 +14,10 @@ export const config = {
 export const Component: React.FC<Props> = ({ prop }) => {
   return <div>{prop}</div>;
 };
+
+// Add error handling
+try {
+  const result = await fetch(url);
+} catch (error) {
+  console.error('Error:', error);
+}
