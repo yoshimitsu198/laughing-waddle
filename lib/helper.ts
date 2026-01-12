@@ -50,3 +50,9 @@ function processData41(data: string): string | null {
 function validateEmail(email: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
+
+// Fix TypeScript type errors
+interface User {
+  id: number;
+  name: string;
+}
