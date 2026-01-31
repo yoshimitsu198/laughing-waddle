@@ -6,3 +6,6 @@ Change log entry for iteration 34
 
 Update 36
 Change log entry for iteration 36
+
+Update 38
+Change log entry for iteration 38
